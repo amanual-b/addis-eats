@@ -2,7 +2,7 @@ import DishList from "./DishList"
 import { Suspense } from "react";
 import dishes from "./dishes.json"
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://addis-eats-xi.vercel.app/menu";
 
 export const metadata = {
     title: "Menu",

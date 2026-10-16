@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import dishes from "../dishes.json";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? `https://addis-eats-xi.vercel.app`;
 
 function buildJsonLd(di) {
     const path = `/menu/${encodeURIComponent(di.name)}`;
