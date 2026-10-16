@@ -1,0 +1,34 @@
+[
+    {"id":1,"name":"DoroWat","description":"Spicy Ethiopian chicken stew with berbere served with in jera","price":350,
+    "category":"ethiopian","image":"/images/doro-wat.webp","ingredients":["Chicken","Berbere","Onions","Injera","Garlic",
+    "Ginger"], "fasting": false, "spicy": true
+    },
+    {"id": 2,"name": "Kitfo","description": "Finely minced raw beef seasoned with mitmita and warm spiced clarified butter, served with ayib and gomen",
+        "price": 450,"category": "ethiopian","image": "/images/kitfo.webp",
+        "ingredients": ["Beef","Mitmita","Niter Kibbeh","Ayib","Gomen","Injera"], "fasting": false, "spicy": true
+    },
+    {"id": 3,"name": "BeefTibs","description": "Sautéed beef cubes cooked with onions, garlic, green chilies, and rosemary, served hot with injera",
+        "price": 380,"category": "ethiopian","image": "/images/beef-tibs.webp",
+        "ingredients": ["Beef", "Onions", "Garlic", "Green Chili", "Rosemary", "Niter Kibbeh", "Injera"], "fasting": false, "spicy": false
+    },
+    {"id": 4,"name": "Gomen-Besaiga","description": "Collard greens and tender beef cubes simmered together with onions, garlic, and spiced butter",
+        "price": 340,"category": "ethiopian","image": "/images/gomen-be-saiga.webp",
+        "ingredients": ["Collard Greens", "Beef", "Onions", "Garlic", "Niter Kibbeh", "Injera"], "fasting": false, "spicy": false
+    },
+    {"id": 5,"name": "AsaTibs","description": "Crispy fried cubed fish seasoned with local spices, served with a lime wedge and spicy dipping sauce",
+        "price": 390,"category": "ethiopian","image": "/images/asa-tibs.webp",
+        "ingredients": ["Fish", "Garlic", "Lime", "Awaze", "Onions", "Injera"],"fasting": false, "spicy": false
+    },
+    {"id": 6,"name": "Beyaynet","description": "A colorful assortment of vegan stews including lentils, peas, and shiro served atop a large injera",
+        "price": 320,"category": "ethiopian","image": "/images/beyaynetu.webp",
+        "ingredients": ["Misir Wot", "Kik Alicha", "Gomen", "Shiro", "Injera", "Beetroot", "Cabbage"], "fasting": true, "spicy": false
+    },
+    {"id": 7,"name": "ShiroWat","description": "A smooth, savory stew made from powdered chickpeas, onions, garlic, and berbere spices",
+        "price": 250,"category": "ethiopian","image": "/images/shiro-wat.webp",
+        "ingredients": ["Chickpea Powder", "Berbere", "Onions", "Garlic", "Niter Kibbeh", "Injera"], "fasting": true, "spicy": false
+    },
+    {"id": 8,"name": "MisirWat","description": "Spicy red lentil stew slow-cooked with a rich berbere sauce, garlic, and ginger",
+        "price": 260,"category": "ethiopian","image": "/images/misir-wat.webp",
+        "ingredients": ["Red Lentils", "Berbere", "Onions", "Garlic", "Ginger", "Injera"], "fasting": true, "spicy": false
+    }
+]

@@ -1,0 +1,5 @@
+[
+    {"id":1, "name":"amanual", "phone": "0900000001", "password": "1234","role": "customer"},
+    {"id":2, "name":"nahom", "phone": "0900000002", "password": "1234","role": "customer"},
+    {"id":99, "name":"nati", "phone": "0900000003", "password": "1234","role": "stafe"}
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "id":1, "user": 1, "status": "Cooking", "items":[
+            {"id":1,"name":"DoroWat","description":"Spicy Ethiopian chicken stew with berbere served with in jera","price":350,
+            "category":"ethiopian","image":"images/doro-wat.jpg","ingredients":["Chicken","Berbere","Onions","Injera","Garlic",
+            "Ginger"], "fasting": false, "spicy": true, "qty": 3
+            },
+            {"id": 2,"name": "Kitfo","description": "Finely minced raw beef seasoned with mitmita and warm spiced clarified butter, served with ayib and gomen",
+                "price": 450,"category": "ethiopian","image": "images/kitfo.jpg",
+                "ingredients": ["Beef","Mitmita","Niter Kibbeh","Ayib","Gomen","Injera"], "fasting": false, "spicy": true, "qty": 3
+            }
+        ]
+    },
+    {
+        "id":2, "user": 1, "status": "Delivered", "items":[
+            {"id":1,"name":"DoroWat","description":"Spicy Ethiopian chicken stew with berbere served with in jera","price":350,
+            "category":"ethiopian","image":"images/doro-wat.jpg","ingredients":["Chicken","Berbere","Onions","Injera","Garlic",
+            "Ginger"], "fasting": false, "spicy": true, "qty": 3
+            },
+            {"id": 2,"name": "Kitfo","description": "Finely minced raw beef seasoned with mitmita and warm spiced clarified butter, served with ayib and gomen",
+                "price": 450,"category": "ethiopian","image": "images/kitfo.jpg",
+                "ingredients": ["Beef","Mitmita","Niter Kibbeh","Ayib","Gomen","Injera"], "fasting": false, "spicy": true, "qty": 3
+            }
+        ]
+    },
+    {
+        "id":3, "user": 2, "status": "Cooking", "items":[
+            {"id":1,"name":"DoroWat","description":"Spicy Ethiopian chicken stew with berbere served with in jera","price":350,
+            "category":"ethiopian","image":"images/doro-wat.jpg","ingredients":["Chicken","Berbere","Onions","Injera","Garlic",
+            "Ginger"], "fasting": false, "spicy": true, "qty": 3
+            },
+            {"id": 2,"name": "Kitfo","description": "Finely minced raw beef seasoned with mitmita and warm spiced clarified butter, served with ayib and gomen",
+                "price": 450,"category": "ethiopian","image": "images/kitfo.jpg",
+                "ingredients": ["Beef","Mitmita","Niter Kibbeh","Ayib","Gomen","Injera"], "fasting": false, "spicy": true, "qty": 3
+            }
+        ]
+    }
+]
