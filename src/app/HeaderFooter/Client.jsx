@@ -10,6 +10,9 @@ export function Client() {
     })
     const user = data?.user
     if(isLoading) return <span className="nav-placeholder" aria-hidden="true" />
+    if (user === "99") {
+        return(user && <Link href={`/kitchens`}>kitchen</Link>)
+    }
     return(
         <>
         {user && <Link href={`/orders/${user}`}>Orders</Link>}

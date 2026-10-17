@@ -8,7 +8,7 @@ import users from "../users.json"
 
 async function getOrder() {
   try {
-    const res = await fetch(`http://localhost:3000/api/orders`, {
+    const res = await fetch(`https://addis-eats-xi.vercel.app/api/orders`, {
       next: { revalidate: 0 },
     });
 
