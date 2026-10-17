@@ -6,7 +6,8 @@ import { getSession } from "../../lib/session";
 
 async function getOrder(id) {
   try {
-    const res = await fetch(`http://localhost:3000/api/orders/${id}`, {
+    const baseUrl = process.env.NEXT_PUBLIC_API_URL || '';
+    const res = await fetch(`${baseUrl}/api/orders/${id}`, {
       next: { revalidate: 0 },
     });
 

@@ -4,7 +4,7 @@ import useSwr from "swr"
 import fetcher from "../lib/fetcher";
 import CartLink from "./CartLink";
 export function Client() {
-    const {data, isLoading} = useSwr("api/session", fetcher,{
+    const {data, isLoading} = useSwr("/api/session", fetcher,{
         revalidateOnFocus: false
     })
     const user = data?.user
