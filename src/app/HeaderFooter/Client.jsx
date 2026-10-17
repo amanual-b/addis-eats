@@ -5,7 +5,8 @@ import fetcher from "../lib/fetcher";
 import CartLink from "./CartLink";
 export function Client() {
     const {data, isLoading} = useSwr("/api/session", fetcher,{
-        revalidateOnFocus: false
+        revalidateOnFocus: true,
+        revalidateOnMount: true
     })
     const user = data?.user
     if(isLoading) return <span className="nav-placeholder" aria-hidden="true" />

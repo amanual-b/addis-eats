@@ -7,7 +7,7 @@ import { getSession } from "../../lib/session";
 async function getOrder(id) {
   try {
     const baseUrl = process.env.NEXT_PUBLIC_API_URL || '';
-    const res = await fetch(`${baseUrl}/api/orders/${id}`, {
+    const res = await fetch(`https://addis-eats-xi.vercel.app/api/orders/${id}`, {
       next: { revalidate: 0 },
     });
 
