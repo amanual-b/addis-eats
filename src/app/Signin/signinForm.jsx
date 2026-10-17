@@ -59,7 +59,11 @@ export default function SignInForm() {
         <button type="submit" disabled={isPending}>
           {isPending ? "Verifying Credentials..." : "Sign In"}
         </button>
+        <p></p>
+        <p>use 0900000001, 0900000002: password 1234</p>
+        <p>use(for admin) 0900000003: password 1234 </p>
       </form>
+      
     </div>
   );
 }
