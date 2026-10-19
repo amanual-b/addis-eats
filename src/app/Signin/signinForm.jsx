@@ -14,7 +14,7 @@ export default function SignInForm() {
   const [state, formAction, isPending] = useActionState(handleSignIn, null);
 
   useEffect(() => {
-    mutate("api/session")
+    mutate("/api/session")
     if (state?.success && state?.redirectTo) {
       router.push(state.redirectTo);
       router.refresh();

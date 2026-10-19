@@ -4,7 +4,7 @@ import useSwr from "swr"
 import fetcher from "../lib/fetcher";
 import LogOut from "./logout";
 export default function SignInOut() {
-    const {data, isLoading} = useSwr("api/session", fetcher, {
+    const {data, isLoading} = useSwr("/api/session", fetcher, {
         revalidateOnFocus: false
     })
     const user = data?.user
